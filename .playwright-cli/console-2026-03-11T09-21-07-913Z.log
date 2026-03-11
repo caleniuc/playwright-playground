@@ -1,5 +1,0 @@
-[-2473765ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
-[-2066006ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
-[-2563432ms] [ERROR] [ERROR] GithubLoggedInUser: getLoggedInUserName caleniuc @ chrome-extension://piajhjohgigijkddhdpgbjdcfhmammbk/content.js:6
-[-2563432ms] [ERROR] [ERROR] GithubLoggedInUser: getLoggedInUserEmail null @ chrome-extension://piajhjohgigijkddhdpgbjdcfhmammbk/content.js:6
-[-2563431ms] [ERROR] [ERROR] GithubLoggedInUser: loggedInUsers Object @ chrome-extension://piajhjohgigijkddhdpgbjdcfhmammbk/content.js:6
