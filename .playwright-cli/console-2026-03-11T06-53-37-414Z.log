@@ -1,0 +1,17 @@
+[   85247ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://dc.services.visualstudio.com/v2/track:0
+[   85394ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://platform-cdn.uipath.com/apollo-packages/portal-shell/3.343.1-hotfix.0+115347250/p-4c8bdfd9.js:0
+[   85740ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cloud.uipath.com/portal_/api/tokenFactory/callback?code=ddb8b16f-2e0a-4420-878c-8a7529e8e5ce.9CEFEC7C978C06DB4FB841DAE489687290E71058A10AA6C7C2616B7745EB0C69&scope=openid%20profile%20offline_access%20email%20IdentityServerApi%20SRS.Events%20SRS.Recommendations%20RCS.FolderAuthorization%20RCS.TagsManagement%20Docs.GPT.Search&state=2c113793c0e9407db036cfe9b2dcbd6d&session_state=-6OjdmiF-eCEWDg6TLhhk-btLFUfERxo9IZhcHGTeOo.5E7FB37B2D0E8FF7798E9715EA00F05A&iss=https%3A%2F%2Fcloud.uipath.com%2Fidentity_:0
+[   85788ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:blank:0
+[   86551ms] Uncaught (in promise) newRequest
+    at Im (https://content.usage.uipath.com/agent/static/28a6b07f-b80b-474b-7c38-73dada1ee0a4/pendo.js:9:331252)
+    at Dm (https://content.usage.uipath.com/agent/static/28a6b07f-b80b-474b-7c38-73dada1ee0a4/pendo.js:9:334039)
+    at Iv (https://content.usage.uipath.com/agent/static/28a6b07f-b80b-474b-7c38-73dada1ee0a4/pendo.js:9:341976)
+    at <anonymous> (https://content.usage.uipath.com/agent/static/28a6b07f-b80b-474b-7c38-73dada1ee0a4/pendo.js:9:342205)
+[   90035ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://northeurope-0.in.applicationinsights.azure.com/v2/track:0
+[   91108ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://northeurope-0.in.applicationinsights.azure.com/v2/track:0
+[  100394ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://dc.services.visualstudio.com/v2/track:0
+[  106308ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://northeurope-0.in.applicationinsights.azure.com/v2/track:0
+[  106322ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://dc.services.visualstudio.com/v2/track:0
+[  131279ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://dc.services.visualstudio.com/v2/track:0
+[  161292ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://dc.services.visualstudio.com/v2/track:0
+[  191270ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://dc.services.visualstudio.com/v2/track:0

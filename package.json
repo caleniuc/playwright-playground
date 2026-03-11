@@ -1,0 +1,12 @@
+{
+  "name": "playwright-playground",
+  "version": "1.0.0",
+  "description": "Interactive Playwright playground using the MCP Bridge extension",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,1347 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner "Global Navigation Menu" [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Open menu" [ref=e12] [cursor=pointer]:
+              - img [ref=e13]
+            - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+              - /url: /
+              - img [ref=e16]
+          - generic [ref=e18]:
+            - navigation "Breadcrumbs" [ref=e19]:
+              - list [ref=e20]:
+                - listitem [ref=e21]:
+                  - link "vercel-labs" [ref=e22] [cursor=pointer]:
+                    - /url: /vercel-labs
+                    - generic [ref=e23]: vercel-labs
+                - listitem [ref=e24]:
+                  - link "json-render" [ref=e25] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render
+                    - generic [ref=e26]: json-render
+            - generic [ref=e27]:
+              - button "Search or jump to…" [ref=e29] [cursor=pointer]:
+                - generic [ref=e30]:
+                  - generic:
+                    - img
+                  - generic [ref=e31]:
+                    - generic:
+                      - text: Type
+                      - generic: /
+                      - text: to search
+              - button "Command palette (command k then option command k)" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e39]:
+                - link "Chat with Copilot" [ref=e41] [cursor=pointer]:
+                  - /url: /copilot
+                  - img [ref=e42]
+                - button "Open agents panel" [ref=e46] [cursor=pointer]:
+                  - generic [ref=e47]:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+              - button "Create new..." [ref=e49] [cursor=pointer]:
+                - generic [ref=e50]:
+                  - generic:
+                    - img
+                - generic:
+                  - img
+              - link "Issues" [ref=e51] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e52]
+              - link "Pull requests" [ref=e55] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e56]
+              - link "Repositories" [ref=e58] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e59]
+            - link "You have unread notifications (g then n)" [ref=e61] [cursor=pointer]:
+              - /url: /notifications
+              - img [ref=e62]
+            - button "Open user navigation menu" [ref=e65] [cursor=pointer]:
+              - img "Andrei" [ref=e66]
+        - heading "Repository navigation" [level=2] [ref=e67]
+        - navigation "Repository" [ref=e68]:
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - link "Code" [ref=e71] [cursor=pointer]:
+                - /url: /vercel-labs/json-render
+                - img [ref=e73]
+                - generic [ref=e75]: Code
+            - listitem [ref=e76]:
+              - link "Issues (35)" [ref=e77] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/issues
+                - img [ref=e79]
+                - generic [ref=e82]: Issues
+                - generic [ref=e83]:
+                  - generic [ref=e84]: "35"
+                  - generic [ref=e85]: (35)
+            - listitem [ref=e86]:
+              - link "Pull requests (21)" [ref=e87] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/pulls
+                - img [ref=e89]
+                - generic [ref=e91]: Pull requests
+                - generic [ref=e92]:
+                  - generic [ref=e93]: "21"
+                  - generic [ref=e94]: (21)
+            - listitem [ref=e95]:
+              - link "Agents" [ref=e96] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/agents?author=caleniuc
+                - img [ref=e98]
+                - generic [ref=e101]: Agents
+            - listitem [ref=e102]:
+              - link "Actions" [ref=e103] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/actions
+                - img [ref=e105]
+                - generic [ref=e107]: Actions
+            - listitem [ref=e108]:
+              - link "Projects" [ref=e109] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/projects
+                - img [ref=e111]
+                - generic [ref=e113]: Projects
+            - listitem [ref=e114]:
+              - link "Security" [ref=e115] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/security
+                - img [ref=e117]
+                - generic [ref=e119]: Security
+            - listitem [ref=e120]:
+              - link "Insights" [ref=e121] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/pulse
+                - img [ref=e123]
+                - generic [ref=e125]: Insights
+    - group:
+      - button "Command palette trigger"
+    - main [ref=e129]:
+      - generic [ref=e142]:
+        - generic [ref=e145]:
+          - generic [ref=e147]:
+            - generic [ref=e149]:
+              - img "Owner avatar" [ref=e150]
+              - strong [ref=e151]:
+                - link "json-render" [ref=e152] [cursor=pointer]:
+                  - /url: /vercel-labs/json-render
+              - generic [ref=e153]: Public
+            - generic [ref=e154]:
+              - list:
+                - listitem [ref=e155]:
+                  - 'button "Watch: Participating in vercel-labs/json-render" [ref=e158] [cursor=pointer]':
+                    - generic [ref=e159]:
+                      - generic:
+                        - img
+                      - generic [ref=e160]:
+                        - text: Watch
+                        - generic [ref=e161]: "42"
+                    - generic:
+                      - img
+                - listitem [ref=e162]:
+                  - generic [ref=e163]:
+                    - link "Fork 642" [ref=e164] [cursor=pointer]:
+                      - /url: /vercel-labs/json-render/fork
+                      - img [ref=e165]
+                      - text: Fork
+                      - generic "642" [ref=e167]
+                    - group [ref=e168]:
+                      - button "See your forks of this repository" [ref=e169] [cursor=pointer]:
+                        - img [ref=e170]
+                - listitem [ref=e172]:
+                  - generic [ref=e174]:
+                    - button "Star this repository (12146)" [ref=e176] [cursor=pointer]:
+                      - img [ref=e177]
+                      - text: Star
+                      - generic "12146 users starred this repository" [ref=e179]: 12.1k
+                    - group [ref=e180]:
+                      - button "Add this repository to a list" [ref=e181] [cursor=pointer]:
+                        - img [ref=e182]
+          - heading "vercel-labs/json-render" [level=1] [ref=e186]
+        - generic [ref=e187]:
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - button "main branch" [ref=e194] [cursor=pointer]:
+                  - generic [ref=e195]:
+                    - generic [ref=e197]:
+                      - img [ref=e199]
+                      - generic [ref=e202]: main
+                    - generic:
+                      - img
+                - generic [ref=e203]:
+                  - link "91 Branches" [ref=e204] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/branches
+                    - generic [ref=e205]:
+                      - generic:
+                        - img
+                      - generic [ref=e207]:
+                        - strong [ref=e208]: "91"
+                        - text: Branches
+                  - link "126 Tags" [ref=e209] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/tags
+                    - generic [ref=e210]:
+                      - generic:
+                        - img
+                      - generic [ref=e212]:
+                        - strong [ref=e213]: "126"
+                        - text: Tags
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - generic [ref=e218]:
+                    - img [ref=e220]
+                    - combobox "Go to file" [ref=e222]
+                    - generic [ref=e224]: t
+                  - generic [ref=e225]:
+                    - heading "Add file" [level=2] [ref=e226]
+                    - button "Add file" [ref=e227] [cursor=pointer]:
+                      - generic [ref=e230]:
+                        - text: Add file
+                        - img [ref=e231]
+                - button "Code" [ref=e233] [cursor=pointer]:
+                  - generic [ref=e234]:
+                    - generic:
+                      - img
+                    - generic [ref=e235]: Code
+                    - generic:
+                      - img
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - heading "Folders and files" [level=2] [ref=e238]
+                - table "Folders and files" [ref=e239]:
+                  - rowgroup:
+                    - row "Name Last commit message Last commit date":
+                      - columnheader "Name"
+                      - columnheader "Last commit message":
+                        - generic "Last commit message"
+                      - columnheader "Last commit date":
+                        - generic "Last commit date"
+                  - rowgroup [ref=e240]:
+                    - row "Latest commit ctate commits by ctate skills page (#188) success Commit 4606c01 · Mar 7, 20264 days ago History 162 Commits" [ref=e241]:
+                      - cell "Latest commit ctate commits by ctate skills page (#188) success Commit 4606c01 · Mar 7, 20264 days ago History 162 Commits" [ref=e242]:
+                        - generic [ref=e243]:
+                          - heading "Latest commit" [level=2] [ref=e244]
+                          - generic [ref=e245]:
+                            - generic [ref=e247]:
+                              - link "ctate" [ref=e248] [cursor=pointer]:
+                                - /url: /ctate
+                                - img "ctate" [ref=e249]
+                              - link "commits by ctate" [ref=e250] [cursor=pointer]:
+                                - /url: /vercel-labs/json-render/commits?author=ctate
+                                - text: ctate
+                            - generic [ref=e251]:
+                              - generic [ref=e253]:
+                                - link "skills page (" [ref=e254] [cursor=pointer]:
+                                  - /url: /vercel-labs/json-render/commit/4606c0108513b744532131e56f1d5abcba5166e1
+                                - link "#188" [ref=e255] [cursor=pointer]:
+                                  - /url: https://github.com/vercel-labs/json-render/pull/188
+                                - link ")" [ref=e256] [cursor=pointer]:
+                                  - /url: /vercel-labs/json-render/commit/4606c0108513b744532131e56f1d5abcba5166e1
+                              - button "success" [ref=e257] [cursor=pointer]:
+                                - img [ref=e258]
+                          - generic [ref=e260]:
+                            - generic [ref=e262]:
+                              - link "Commit 4606c01" [ref=e263] [cursor=pointer]:
+                                - /url: /vercel-labs/json-render/commit/4606c0108513b744532131e56f1d5abcba5166e1
+                                - text: 4606c01
+                              - text: ·
+                              - generic "Mar 7, 2026, 4:39 AM GMT+2" [ref=e264]: Mar 7, 20264 days ago
+                            - generic [ref=e265]:
+                              - heading "History" [level=2] [ref=e266]
+                              - link "162 Commits" [ref=e267] [cursor=pointer]:
+                                - /url: /vercel-labs/json-render/commits/main/
+                                - generic [ref=e268]:
+                                  - generic:
+                                    - img
+                                  - generic [ref=e269]: 162 Commits
+                    - 'row ".changeset, (Directory) chore: version packages (#186) Mar 7, 20264 days ago" [ref=e270]':
+                      - cell ".changeset, (Directory)" [ref=e271]:
+                        - generic [ref=e272]:
+                          - img [ref=e273]
+                          - link ".changeset, (Directory)" [ref=e278] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/.changeset
+                            - text: .changeset
+                      - 'cell "chore: version packages (#186)" [ref=e279]':
+                        - generic [ref=e281]:
+                          - 'link "chore: version packages (" [ref=e282] [cursor=pointer]':
+                            - /url: /vercel-labs/json-render/commit/6f15faaae0204f812158586e033aae0b61f47a93
+                          - link "#186" [ref=e283] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/186
+                          - link ")" [ref=e284] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/6f15faaae0204f812158586e033aae0b61f47a93
+                      - cell "Mar 7, 20264 days ago" [ref=e285]:
+                        - generic [ref=e286]: Mar 7, 20264 days ago
+                    - row ".cursor, (Directory) mcp (#184) Mar 7, 20264 days ago" [ref=e287]:
+                      - cell ".cursor, (Directory)" [ref=e288]:
+                        - generic [ref=e289]:
+                          - img [ref=e290]
+                          - link ".cursor, (Directory)" [ref=e295] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/.cursor
+                            - text: .cursor
+                      - cell "mcp (#184)" [ref=e296]:
+                        - generic [ref=e298]:
+                          - link "mcp (" [ref=e299] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/1cc87310c90d65ff2c93a97b58acd91d231c2e0f
+                          - link "#184" [ref=e300] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/184
+                          - link ")" [ref=e301] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/1cc87310c90d65ff2c93a97b58acd91d231c2e0f
+                      - cell "Mar 7, 20264 days ago" [ref=e302]:
+                        - generic [ref=e303]: Mar 7, 20264 days ago
+                    - row ".github/workflows, (Directory) shadcn (#115) Feb 17, 20263 weeks ago" [ref=e304]:
+                      - cell ".github/workflows, (Directory)" [ref=e305]:
+                        - generic [ref=e306]:
+                          - img [ref=e307]
+                          - link ".github/workflows, (Directory)" [ref=e312] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/.github/workflows
+                            - text: .github/workflows
+                      - cell "shadcn (#115)" [ref=e313]:
+                        - generic [ref=e315]:
+                          - link "shadcn (" [ref=e316] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/320c935bfb2f5a5a350fdad5c32b5626e34731b3
+                          - link "#115" [ref=e317] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/115
+                          - link ")" [ref=e318] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/320c935bfb2f5a5a350fdad5c32b5626e34731b3
+                      - cell "Feb 17, 20263 weeks ago" [ref=e319]:
+                        - generic [ref=e320]: Feb 17, 20263 weeks ago
+                    - row ".husky, (Directory) format Jan 15, 20262 months ago" [ref=e321]:
+                      - cell ".husky, (Directory)" [ref=e322]:
+                        - generic [ref=e323]:
+                          - img [ref=e324]
+                          - link ".husky, (Directory)" [ref=e329] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/.husky
+                            - text: .husky
+                      - cell "format" [ref=e330]:
+                        - link "format" [ref=e333] [cursor=pointer]:
+                          - /url: /vercel-labs/json-render/commit/ec751154615d22ad210e289c4903b2e8ee258f7f
+                      - cell "Jan 15, 20262 months ago" [ref=e334]:
+                        - generic [ref=e335]: Jan 15, 20262 months ago
+                    - row ".vscode, (Directory) mcp (#184) Mar 7, 20264 days ago" [ref=e336]:
+                      - cell ".vscode, (Directory)" [ref=e337]:
+                        - generic [ref=e338]:
+                          - img [ref=e339]
+                          - link ".vscode, (Directory)" [ref=e344] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/.vscode
+                            - text: .vscode
+                      - cell "mcp (#184)" [ref=e345]:
+                        - generic [ref=e347]:
+                          - link "mcp (" [ref=e348] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/1cc87310c90d65ff2c93a97b58acd91d231c2e0f
+                          - link "#184" [ref=e349] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/184
+                          - link ")" [ref=e350] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/1cc87310c90d65ff2c93a97b58acd91d231c2e0f
+                      - cell "Mar 7, 20264 days ago" [ref=e351]:
+                        - generic [ref=e352]: Mar 7, 20264 days ago
+                    - row "apps/web, (Directory) skills page (#188) Mar 7, 20264 days ago" [ref=e353]:
+                      - cell "apps/web, (Directory)" [ref=e354]:
+                        - generic [ref=e355]:
+                          - img [ref=e356]
+                          - link "apps/web, (Directory)" [ref=e361] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/apps/web
+                            - text: apps/web
+                      - cell "skills page (#188)" [ref=e362]:
+                        - generic [ref=e364]:
+                          - link "skills page (" [ref=e365] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/4606c0108513b744532131e56f1d5abcba5166e1
+                          - link "#188" [ref=e366] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/188
+                          - link ")" [ref=e367] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/4606c0108513b744532131e56f1d5abcba5166e1
+                      - cell "Mar 7, 20264 days ago" [ref=e368]:
+                        - generic [ref=e369]: Mar 7, 20264 days ago
+                    - 'row "examples, (Directory) chore: version packages (#186) Mar 7, 20264 days ago" [ref=e370]':
+                      - cell "examples, (Directory)" [ref=e371]:
+                        - generic [ref=e372]:
+                          - img [ref=e373]
+                          - link "examples, (Directory)" [ref=e378] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/examples
+                            - text: examples
+                      - 'cell "chore: version packages (#186)" [ref=e379]':
+                        - generic [ref=e381]:
+                          - 'link "chore: version packages (" [ref=e382] [cursor=pointer]':
+                            - /url: /vercel-labs/json-render/commit/6f15faaae0204f812158586e033aae0b61f47a93
+                          - link "#186" [ref=e383] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/186
+                          - link ")" [ref=e384] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/6f15faaae0204f812158586e033aae0b61f47a93
+                      - cell "Mar 7, 20264 days ago" [ref=e385]:
+                        - generic [ref=e386]: Mar 7, 20264 days ago
+                    - 'row "packages, (Directory) chore: version packages (#186) Mar 7, 20264 days ago" [ref=e387]':
+                      - cell "packages, (Directory)" [ref=e388]:
+                        - generic [ref=e389]:
+                          - img [ref=e390]
+                          - link "packages, (Directory)" [ref=e395] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/packages
+                            - text: packages
+                      - 'cell "chore: version packages (#186)" [ref=e396]':
+                        - generic [ref=e398]:
+                          - 'link "chore: version packages (" [ref=e399] [cursor=pointer]':
+                            - /url: /vercel-labs/json-render/commit/6f15faaae0204f812158586e033aae0b61f47a93
+                          - link "#186" [ref=e400] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/186
+                          - link ")" [ref=e401] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/6f15faaae0204f812158586e033aae0b61f47a93
+                      - cell "Mar 7, 20264 days ago" [ref=e402]:
+                        - generic [ref=e403]: Mar 7, 20264 days ago
+                    - row "skills, (Directory) cleaner skills (#187) Mar 7, 20264 days ago" [ref=e404]:
+                      - cell "skills, (Directory)" [ref=e405]:
+                        - generic [ref=e406]:
+                          - img [ref=e407]
+                          - link "skills, (Directory)" [ref=e412] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/skills
+                            - text: skills
+                      - cell "cleaner skills (#187)" [ref=e413]:
+                        - generic [ref=e415]:
+                          - link "cleaner skills (" [ref=e416] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/c1a700d7196f5a3a218df7eae8e2285ea664f787
+                          - link "#187" [ref=e417] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/187
+                          - link ")" [ref=e418] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/c1a700d7196f5a3a218df7eae8e2285ea664f787
+                      - cell "Mar 7, 20264 days ago" [ref=e419]:
+                        - generic [ref=e420]: Mar 7, 20264 days ago
+                    - row "tests/e2e, (Directory) image (#173) Feb 27, 20262 weeks ago" [ref=e421]:
+                      - cell "tests/e2e, (Directory)" [ref=e422]:
+                        - generic [ref=e423]:
+                          - img [ref=e424]
+                          - link "tests/e2e, (Directory)" [ref=e429] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/tree/main/tests/e2e
+                            - text: tests/e2e
+                      - cell "image (#173)" [ref=e430]:
+                        - generic [ref=e432]:
+                          - link "image (" [ref=e433] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/553c803422b66d47e2c07306228687200fea0ace
+                          - link "#173" [ref=e434] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/173
+                          - link ")" [ref=e435] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/553c803422b66d47e2c07306228687200fea0ace
+                      - cell "Feb 27, 20262 weeks ago" [ref=e436]:
+                        - generic [ref=e437]: Feb 27, 20262 weeks ago
+                    - 'row ".gitignore, (File) feat: Svelte-renderer (#168) Mar 7, 20264 days ago" [ref=e438]':
+                      - cell ".gitignore, (File)" [ref=e439]:
+                        - generic [ref=e440]:
+                          - img [ref=e441]
+                          - link ".gitignore, (File)" [ref=e446] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/.gitignore
+                            - text: .gitignore
+                      - 'cell "feat: Svelte-renderer (#168)" [ref=e447]':
+                        - generic [ref=e449]:
+                          - 'link "feat: Svelte-renderer (" [ref=e450] [cursor=pointer]':
+                            - /url: /vercel-labs/json-render/commit/512f7fe5c59662b75db6b789c7d5d6efaaa67f3a
+                          - link "#168" [ref=e451] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/168
+                          - link ")" [ref=e452] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/512f7fe5c59662b75db6b789c7d5d6efaaa67f3a
+                      - cell "Mar 7, 20264 days ago" [ref=e453]:
+                        - generic [ref=e454]: Mar 7, 20264 days ago
+                    - row ".npmrc, (File) init Jan 14, 20262 months ago" [ref=e455]:
+                      - cell ".npmrc, (File)" [ref=e456]:
+                        - generic [ref=e457]:
+                          - img [ref=e458]
+                          - link ".npmrc, (File)" [ref=e463] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/.npmrc
+                            - text: .npmrc
+                      - cell "init" [ref=e464]:
+                        - link "init" [ref=e467] [cursor=pointer]:
+                          - /url: /vercel-labs/json-render/commit/7663fb22b0bddb07ca6e8ed79fb07bc8d2698f7a
+                      - cell "Jan 14, 20262 months ago" [ref=e468]:
+                        - generic [ref=e469]: Jan 14, 20262 months ago
+                    - row "AGENTS.md, (File) cleaner skills (#187) Mar 7, 20264 days ago" [ref=e470]:
+                      - cell "AGENTS.md, (File)" [ref=e471]:
+                        - generic [ref=e472]:
+                          - img [ref=e473]
+                          - link "AGENTS.md, (File)" [ref=e478] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/AGENTS.md
+                            - text: AGENTS.md
+                      - cell "cleaner skills (#187)" [ref=e479]:
+                        - generic [ref=e481]:
+                          - link "cleaner skills (" [ref=e482] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/c1a700d7196f5a3a218df7eae8e2285ea664f787
+                          - link "#187" [ref=e483] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/187
+                          - link ")" [ref=e484] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/c1a700d7196f5a3a218df7eae8e2285ea664f787
+                      - cell "Mar 7, 20264 days ago" [ref=e485]:
+                        - generic [ref=e486]: Mar 7, 20264 days ago
+                    - row "LICENSE, (File) fix license Jan 15, 20262 months ago" [ref=e487]:
+                      - cell "LICENSE, (File)" [ref=e488]:
+                        - generic [ref=e489]:
+                          - img [ref=e490]
+                          - link "LICENSE, (File)" [ref=e495] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/LICENSE
+                            - text: LICENSE
+                      - cell "fix license" [ref=e496]:
+                        - link "fix license" [ref=e499] [cursor=pointer]:
+                          - /url: /vercel-labs/json-render/commit/5f61a330ec40591f015ea658c19eb062c73b9d48
+                      - cell "Jan 15, 20262 months ago" [ref=e500]:
+                        - generic [ref=e501]: Jan 15, 20262 months ago
+                    - row "README.md, (File) prepare 0.12.0 (#185) Mar 7, 20264 days ago" [ref=e502]:
+                      - cell "README.md, (File)" [ref=e503]:
+                        - generic [ref=e504]:
+                          - img [ref=e505]
+                          - link "README.md, (File)" [ref=e510] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/README.md
+                            - text: README.md
+                      - cell "prepare 0.12.0 (#185)" [ref=e511]:
+                        - generic [ref=e513]:
+                          - link "prepare 0.12.0 (" [ref=e514] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/63c339b4bb582c72af5beb3fc8406a645b85e083
+                          - link "#185" [ref=e515] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/185
+                          - link ")" [ref=e516] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/63c339b4bb582c72af5beb3fc8406a645b85e083
+                      - cell "Mar 7, 20264 days ago" [ref=e517]:
+                        - generic [ref=e518]: Mar 7, 20264 days ago
+                    - 'row "package.json, (File) feat: Svelte-renderer (#168) Mar 7, 20264 days ago" [ref=e519]':
+                      - cell "package.json, (File)" [ref=e520]:
+                        - generic [ref=e521]:
+                          - img [ref=e522]
+                          - link "package.json, (File)" [ref=e527] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/package.json
+                            - text: package.json
+                      - 'cell "feat: Svelte-renderer (#168)" [ref=e528]':
+                        - generic [ref=e530]:
+                          - 'link "feat: Svelte-renderer (" [ref=e531] [cursor=pointer]':
+                            - /url: /vercel-labs/json-render/commit/512f7fe5c59662b75db6b789c7d5d6efaaa67f3a
+                          - link "#168" [ref=e532] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/168
+                          - link ")" [ref=e533] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/512f7fe5c59662b75db6b789c7d5d6efaaa67f3a
+                      - cell "Mar 7, 20264 days ago" [ref=e534]:
+                        - generic [ref=e535]: Mar 7, 20264 days ago
+                    - row "pnpm-lock.yaml, (File) mcp (#184) Mar 7, 20264 days ago" [ref=e536]:
+                      - cell "pnpm-lock.yaml, (File)" [ref=e537]:
+                        - generic [ref=e538]:
+                          - img [ref=e539]
+                          - link "pnpm-lock.yaml, (File)" [ref=e544] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/pnpm-lock.yaml
+                            - text: pnpm-lock.yaml
+                      - cell "mcp (#184)" [ref=e545]:
+                        - generic [ref=e547]:
+                          - link "mcp (" [ref=e548] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/1cc87310c90d65ff2c93a97b58acd91d231c2e0f
+                          - link "#184" [ref=e549] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/184
+                          - link ")" [ref=e550] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/1cc87310c90d65ff2c93a97b58acd91d231c2e0f
+                      - cell "Mar 7, 20264 days ago" [ref=e551]:
+                        - generic [ref=e552]: Mar 7, 20264 days ago
+                    - row "pnpm-workspace.yaml, (File) external store adapter for state management (#139) Feb 24, 20262 weeks ago" [ref=e553]:
+                      - cell "pnpm-workspace.yaml, (File)" [ref=e554]:
+                        - generic [ref=e555]:
+                          - img [ref=e556]
+                          - link "pnpm-workspace.yaml, (File)" [ref=e561] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/pnpm-workspace.yaml
+                            - text: pnpm-workspace.yaml
+                      - cell "external store adapter for state management (#139)" [ref=e562]:
+                        - generic [ref=e564]:
+                          - link "external store adapter for state management (" [ref=e565] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/320185448100026fca4097850e076006c0627ac6
+                          - link "#139" [ref=e566] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/139
+                          - link ")" [ref=e567] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/320185448100026fca4097850e076006c0627ac6
+                      - cell "Feb 24, 20262 weeks ago" [ref=e568]:
+                        - generic [ref=e569]: Feb 24, 20262 weeks ago
+                    - row "turbo.json, (File) better chat (#92) Feb 9, 2026last month" [ref=e570]:
+                      - cell "turbo.json, (File)" [ref=e571]:
+                        - generic [ref=e572]:
+                          - img [ref=e573]
+                          - link "turbo.json, (File)" [ref=e578] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/turbo.json
+                            - text: turbo.json
+                      - cell "better chat (#92)" [ref=e579]:
+                        - generic [ref=e581]:
+                          - link "better chat (" [ref=e582] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/2b3f3a723fd365379b0b20163c279cff35c27251
+                          - link "#92" [ref=e583] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/92
+                          - link ")" [ref=e584] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/2b3f3a723fd365379b0b20163c279cff35c27251
+                      - cell "Feb 9, 2026last month" [ref=e585]:
+                        - generic [ref=e586]: Feb 9, 2026last month
+                    - 'row "vitest.config.mts, (File) feat: Svelte-renderer (#168) Mar 7, 20264 days ago" [ref=e587]':
+                      - cell "vitest.config.mts, (File)" [ref=e588]:
+                        - generic [ref=e589]:
+                          - img [ref=e590]
+                          - link "vitest.config.mts, (File)" [ref=e595] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/blob/main/vitest.config.mts
+                            - text: vitest.config.mts
+                      - 'cell "feat: Svelte-renderer (#168)" [ref=e596]':
+                        - generic [ref=e598]:
+                          - 'link "feat: Svelte-renderer (" [ref=e599] [cursor=pointer]':
+                            - /url: /vercel-labs/json-render/commit/512f7fe5c59662b75db6b789c7d5d6efaaa67f3a
+                          - link "#168" [ref=e600] [cursor=pointer]:
+                            - /url: https://github.com/vercel-labs/json-render/pull/168
+                          - link ")" [ref=e601] [cursor=pointer]:
+                            - /url: /vercel-labs/json-render/commit/512f7fe5c59662b75db6b789c7d5d6efaaa67f3a
+                      - cell "Mar 7, 20264 days ago" [ref=e602]:
+                        - generic [ref=e603]: Mar 7, 20264 days ago
+              - generic [ref=e605]:
+                - generic [ref=e606]:
+                  - heading "Repository files navigation" [level=2] [ref=e607]
+                  - navigation "Repository files" [ref=e608]:
+                    - list [ref=e609]:
+                      - listitem [ref=e610]:
+                        - link "README" [ref=e611] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e613]
+                          - generic [ref=e615]: README
+                      - listitem [ref=e616]:
+                        - link "Apache-2.0 license" [ref=e617] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e619]
+                          - generic [ref=e621]: Apache-2.0 license
+                  - button "Edit file" [ref=e622] [cursor=pointer]:
+                    - img [ref=e623]
+                  - button "Outline" [ref=e625] [cursor=pointer]:
+                    - img [ref=e626]
+                - article [ref=e629]:
+                  - generic [ref=e630]:
+                    - heading "json-render" [level=1] [ref=e631]
+                    - 'link "Permalink: json-render" [ref=e632] [cursor=pointer]':
+                      - /url: "#json-render"
+                      - img [ref=e633]
+                  - paragraph [ref=e635]:
+                    - strong [ref=e636]: The Generative UI framework.
+                  - paragraph [ref=e637]: Generate dynamic, personalized UIs from prompts without sacrificing reliability. Predefined components and actions for safe, predictable output.
+                  - generic [ref=e638]:
+                    - generic [ref=e639]:
+                      - generic [ref=e640]: "# for React"
+                      - text: npm install @json-render/core @json-render/react
+                      - generic [ref=e641]: "# for React with pre-built shadcn/ui components"
+                      - text: npm install @json-render/shadcn
+                      - generic [ref=e642]: "# or for React Native"
+                      - text: npm install @json-render/core @json-render/react-native
+                      - generic [ref=e643]: "# or for video"
+                      - text: npm install @json-render/core @json-render/remotion
+                      - generic [ref=e644]: "# or for PDF documents"
+                      - text: npm install @json-render/core @json-render/react-pdf
+                      - generic [ref=e645]: "# or for HTML email"
+                      - text: npm install @json-render/core @json-render/react-email @react-email/components @react-email/render
+                      - generic [ref=e646]: "# or for Vue"
+                      - text: npm install @json-render/core @json-render/vue
+                      - generic [ref=e647]: "# or for Svelte"
+                      - text: npm install @json-render/core @json-render/svelte
+                    - button "Copy" [ref=e649] [cursor=pointer]:
+                      - img [ref=e650]
+                  - generic [ref=e653]:
+                    - heading "Why json-render?" [level=2] [ref=e654]
+                    - 'link "Permalink: Why json-render?" [ref=e655] [cursor=pointer]':
+                      - /url: "#why-json-render"
+                      - img [ref=e656]
+                  - paragraph [ref=e658]:
+                    - text: json-render is a
+                    - strong [ref=e659]: Generative UI
+                    - text: "framework: AI generates interfaces from natural language prompts, constrained to components you define. You set the guardrails, AI generates within them:"
+                  - list [ref=e660]:
+                    - listitem [ref=e661]:
+                      - strong [ref=e662]: Guardrailed
+                      - text: "- AI can only use components in your catalog"
+                    - listitem [ref=e663]:
+                      - strong [ref=e664]: Predictable
+                      - text: "- JSON output matches your schema, every time"
+                    - listitem [ref=e665]:
+                      - strong [ref=e666]: Fast
+                      - text: "- Stream and render progressively as the model responds"
+                    - listitem [ref=e667]:
+                      - strong [ref=e668]: Cross-Platform
+                      - text: "- React, Vue, Svelte (web), React Native (mobile) from the same catalog"
+                    - listitem [ref=e669]:
+                      - strong [ref=e670]: Batteries Included
+                      - text: "- 36 pre-built shadcn/ui components ready to use"
+                  - generic [ref=e671]:
+                    - heading "Quick Start" [level=2] [ref=e672]
+                    - 'link "Permalink: Quick Start" [ref=e673] [cursor=pointer]':
+                      - /url: "#quick-start"
+                      - img [ref=e674]
+                  - generic [ref=e676]:
+                    - heading "1. Define Your Catalog" [level=3] [ref=e677]
+                    - 'link "Permalink: 1. Define Your Catalog" [ref=e678] [cursor=pointer]':
+                      - /url: "#1-define-your-catalog"
+                      - img [ref=e679]
+                  - generic [ref=e681]:
+                    - generic [ref=e682]: "import { defineCatalog } from \"@json-render/core\"; import { schema } from \"@json-render/react/schema\"; import { z } from \"zod\"; const catalog = defineCatalog(schema, { components: { Card: { props: z.object({ title: z.string() }), description: \"A card container\", }, Metric: { props: z.object({ label: z.string(), value: z.string(), format: z.enum([\"currency\", \"percent\", \"number\"]).nullable(), }), description: \"Display a metric value\", }, Button: { props: z.object({ label: z.string(), action: z.string(), }), description: \"Clickable button\", }, }, actions: { export_report: { description: \"Export dashboard to PDF\" }, refresh_data: { description: \"Refresh all metrics\" }, }, });"
+                    - button "Copy" [ref=e684] [cursor=pointer]:
+                      - img [ref=e685]
+                  - generic [ref=e688]:
+                    - heading "2. Define Your Components" [level=3] [ref=e689]
+                    - 'link "Permalink: 2. Define Your Components" [ref=e690] [cursor=pointer]':
+                      - /url: "#2-define-your-components"
+                      - img [ref=e691]
+                  - generic [ref=e693]:
+                    - generic [ref=e694]: "import { defineRegistry, Renderer } from \"@json-render/react\"; const { registry } = defineRegistry(catalog, { components: { Card: ({ props, children }) => ( <div className=\"card\"> <h3>{props.title}</h3> {children} </div> ), Metric: ({ props }) => ( <div className=\"metric\"> <span>{props.label}</span> <span>{format(props.value, props.format)}</span> </div> ), Button: ({ props, emit }) => ( <button onClick={() => emit(\"press\")}> {props.label} </button> ), }, });"
+                    - button "Copy" [ref=e696] [cursor=pointer]:
+                      - img [ref=e697]
+                  - generic [ref=e700]:
+                    - heading "3. Render AI-Generated Specs" [level=3] [ref=e701]
+                    - 'link "Permalink: 3. Render AI-Generated Specs" [ref=e702] [cursor=pointer]':
+                      - /url: "#3-render-ai-generated-specs"
+                      - img [ref=e703]
+                  - generic [ref=e705]:
+                    - generic [ref=e706]: "function Dashboard({ spec }) { return <Renderer spec={spec} registry={registry} />; }"
+                    - button "Copy" [ref=e708] [cursor=pointer]:
+                      - img [ref=e709]
+                  - paragraph [ref=e712]:
+                    - strong [ref=e713]: That's it.
+                    - text: AI generates JSON, you render it safely.
+                  - separator [ref=e714]
+                  - generic [ref=e715]:
+                    - heading "Packages" [level=2] [ref=e716]
+                    - 'link "Permalink: Packages" [ref=e717] [cursor=pointer]':
+                      - /url: "#packages"
+                      - img [ref=e718]
+                  - table [ref=e721]:
+                    - rowgroup [ref=e722]:
+                      - row "Package Description" [ref=e723]:
+                        - columnheader "Package" [ref=e724]
+                        - columnheader "Description" [ref=e725]
+                    - rowgroup [ref=e726]:
+                      - row "@json-render/core Schemas, catalogs, AI prompts, dynamic props, SpecStream utilities" [ref=e727]:
+                        - cell "@json-render/core" [ref=e728]:
+                          - code [ref=e729]: "@json-render/core"
+                        - cell "Schemas, catalogs, AI prompts, dynamic props, SpecStream utilities" [ref=e730]
+                      - row "@json-render/react React renderer, contexts, hooks" [ref=e731]:
+                        - cell "@json-render/react" [ref=e732]:
+                          - code [ref=e733]: "@json-render/react"
+                        - cell "React renderer, contexts, hooks" [ref=e734]
+                      - row "@json-render/vue Vue 3 renderer, composables, providers" [ref=e735]:
+                        - cell "@json-render/vue" [ref=e736]:
+                          - code [ref=e737]: "@json-render/vue"
+                        - cell "Vue 3 renderer, composables, providers" [ref=e738]
+                      - row "@json-render/svelte Svelte 5 renderer with runes-based reactivity" [ref=e739]:
+                        - cell "@json-render/svelte" [ref=e740]:
+                          - code [ref=e741]: "@json-render/svelte"
+                        - cell "Svelte 5 renderer with runes-based reactivity" [ref=e742]
+                      - row "@json-render/shadcn 36 pre-built shadcn/ui components (Radix UI + Tailwind CSS)" [ref=e743]:
+                        - cell "@json-render/shadcn" [ref=e744]:
+                          - code [ref=e745]: "@json-render/shadcn"
+                        - cell "36 pre-built shadcn/ui components (Radix UI + Tailwind CSS)" [ref=e746]
+                      - row "@json-render/react-native React Native renderer with standard mobile components" [ref=e747]:
+                        - cell "@json-render/react-native" [ref=e748]:
+                          - code [ref=e749]: "@json-render/react-native"
+                        - cell "React Native renderer with standard mobile components" [ref=e750]
+                      - row "@json-render/remotion Remotion video renderer, timeline schema" [ref=e751]:
+                        - cell "@json-render/remotion" [ref=e752]:
+                          - code [ref=e753]: "@json-render/remotion"
+                        - cell "Remotion video renderer, timeline schema" [ref=e754]
+                      - row "@json-render/react-pdf React PDF renderer for generating PDF documents from specs" [ref=e755]:
+                        - cell "@json-render/react-pdf" [ref=e756]:
+                          - code [ref=e757]: "@json-render/react-pdf"
+                        - cell "React PDF renderer for generating PDF documents from specs" [ref=e758]
+                      - row "@json-render/react-email React Email renderer for HTML/plain-text emails from specs" [ref=e759]:
+                        - cell "@json-render/react-email" [ref=e760]:
+                          - code [ref=e761]: "@json-render/react-email"
+                        - cell "React Email renderer for HTML/plain-text emails from specs" [ref=e762]
+                      - row "@json-render/image Image renderer for SVG/PNG output (OG images, social cards) via Satori" [ref=e763]:
+                        - cell "@json-render/image" [ref=e764]:
+                          - code [ref=e765]: "@json-render/image"
+                        - cell "Image renderer for SVG/PNG output (OG images, social cards) via Satori" [ref=e766]
+                      - row "@json-render/codegen Utilities for generating code from json-render UI trees" [ref=e767]:
+                        - cell "@json-render/codegen" [ref=e768]:
+                          - code [ref=e769]: "@json-render/codegen"
+                        - cell "Utilities for generating code from json-render UI trees" [ref=e770]
+                      - row "@json-render/redux Redux / Redux Toolkit adapter for StateStore" [ref=e771]:
+                        - cell "@json-render/redux" [ref=e772]:
+                          - code [ref=e773]: "@json-render/redux"
+                        - cell "Redux / Redux Toolkit adapter for StateStore" [ref=e774]:
+                          - text: Redux / Redux Toolkit adapter for
+                          - code [ref=e775]: StateStore
+                      - row "@json-render/zustand Zustand adapter for StateStore" [ref=e776]:
+                        - cell "@json-render/zustand" [ref=e777]:
+                          - code [ref=e778]: "@json-render/zustand"
+                        - cell "Zustand adapter for StateStore" [ref=e779]:
+                          - text: Zustand adapter for
+                          - code [ref=e780]: StateStore
+                      - row "@json-render/jotai Jotai adapter for StateStore" [ref=e781]:
+                        - cell "@json-render/jotai" [ref=e782]:
+                          - code [ref=e783]: "@json-render/jotai"
+                        - cell "Jotai adapter for StateStore" [ref=e784]:
+                          - text: Jotai adapter for
+                          - code [ref=e785]: StateStore
+                      - row "@json-render/xstate XState Store (atom) adapter for StateStore" [ref=e786]:
+                        - cell "@json-render/xstate" [ref=e787]:
+                          - code [ref=e788]: "@json-render/xstate"
+                        - cell "XState Store (atom) adapter for StateStore" [ref=e789]:
+                          - text: XState Store (atom) adapter for
+                          - code [ref=e790]: StateStore
+                      - row "@json-render/mcp MCP Apps integration for Claude, ChatGPT, Cursor, VS Code" [ref=e791]:
+                        - cell "@json-render/mcp" [ref=e792]:
+                          - code [ref=e793]: "@json-render/mcp"
+                        - cell "MCP Apps integration for Claude, ChatGPT, Cursor, VS Code" [ref=e794]
+                  - generic [ref=e795]:
+                    - heading "Renderers" [level=2] [ref=e796]
+                    - 'link "Permalink: Renderers" [ref=e797] [cursor=pointer]':
+                      - /url: "#renderers"
+                      - img [ref=e798]
+                  - generic [ref=e800]:
+                    - heading "React (UI)" [level=3] [ref=e801]
+                    - 'link "Permalink: React (UI)" [ref=e802] [cursor=pointer]':
+                      - /url: "#react-ui"
+                      - img [ref=e803]
+                  - generic [ref=e805]:
+                    - generic [ref=e806]: "import { defineRegistry, Renderer } from \"@json-render/react\"; import { schema } from \"@json-render/react/schema\"; // Flat spec format (root key + elements map) const spec = { root: \"card-1\", elements: { \"card-1\": { type: \"Card\", props: { title: \"Hello\" }, children: [\"button-1\"], }, \"button-1\": { type: \"Button\", props: { label: \"Click me\" }, children: [], }, }, }; // defineRegistry creates a type-safe component registry const { registry } = defineRegistry(catalog, { components }); <Renderer spec={spec} registry={registry} />"
+                    - button "Copy" [ref=e808] [cursor=pointer]:
+                      - img [ref=e809]
+                  - generic [ref=e812]:
+                    - heading "Vue (UI)" [level=3] [ref=e813]
+                    - 'link "Permalink: Vue (UI)" [ref=e814] [cursor=pointer]':
+                      - /url: "#vue-ui"
+                      - img [ref=e815]
+                  - generic [ref=e817]:
+                    - generic [ref=e818]: "import { h } from \"vue\"; import { defineRegistry, Renderer } from \"@json-render/vue\"; import { schema } from \"@json-render/vue/schema\"; const { registry } = defineRegistry(catalog, { components: { Card: ({ props, children }) => h(\"div\", { class: \"card\" }, [h(\"h3\", null, props.title), children]), Button: ({ props, emit }) => h(\"button\", { onClick: () => emit(\"press\") }, props.label), }, }); // In your Vue component template: // <Renderer :spec=\"spec\" :registry=\"registry\" />"
+                    - button "Copy" [ref=e820] [cursor=pointer]:
+                      - img [ref=e821]
+                  - generic [ref=e824]:
+                    - heading "Svelte (UI)" [level=3] [ref=e825]
+                    - 'link "Permalink: Svelte (UI)" [ref=e826] [cursor=pointer]':
+                      - /url: "#svelte-ui"
+                      - img [ref=e827]
+                  - generic [ref=e829]:
+                    - generic [ref=e830]:
+                      - text: "import { defineRegistry, Renderer } from \"@json-render/svelte\"; import { schema } from \"@json-render/svelte/schema\"; const { registry } = defineRegistry(catalog, { components: { Card: ({ props, children }) => /* Svelte 5 snippet */"
+                      - text: ", Button: ({ props, emit }) => /* Svelte 5 snippet */"
+                      - text: ", }, }); // In your Svelte component: // <Renderer spec={spec} registry={registry} />"
+                    - button "Copy" [ref=e832] [cursor=pointer]:
+                      - img [ref=e833]
+                  - generic [ref=e836]:
+                    - heading "shadcn/ui (Web)" [level=3] [ref=e837]
+                    - 'link "Permalink: shadcn/ui (Web)" [ref=e838] [cursor=pointer]':
+                      - /url: "#shadcnui-web"
+                      - img [ref=e839]
+                  - generic [ref=e841]:
+                    - generic [ref=e842]: "import { defineCatalog } from \"@json-render/core\"; import { schema } from \"@json-render/react/schema\"; import { defineRegistry, Renderer } from \"@json-render/react\"; import { shadcnComponentDefinitions } from \"@json-render/shadcn/catalog\"; import { shadcnComponents } from \"@json-render/shadcn\"; // Pick components from the 36 standard definitions const catalog = defineCatalog(schema, { components: { Card: shadcnComponentDefinitions.Card, Stack: shadcnComponentDefinitions.Stack, Heading: shadcnComponentDefinitions.Heading, Button: shadcnComponentDefinitions.Button, }, actions: {}, }); // Use matching implementations const { registry } = defineRegistry(catalog, { components: { Card: shadcnComponents.Card, Stack: shadcnComponents.Stack, Heading: shadcnComponents.Heading, Button: shadcnComponents.Button, }, }); <Renderer spec={spec} registry={registry} />"
+                    - button "Copy" [ref=e844] [cursor=pointer]:
+                      - img [ref=e845]
+                  - generic [ref=e848]:
+                    - heading "React Native (Mobile)" [level=3] [ref=e849]
+                    - 'link "Permalink: React Native (Mobile)" [ref=e850] [cursor=pointer]':
+                      - /url: "#react-native-mobile"
+                      - img [ref=e851]
+                  - generic [ref=e853]:
+                    - generic [ref=e854]: "import { defineCatalog } from \"@json-render/core\"; import { schema } from \"@json-render/react-native/schema\"; import { standardComponentDefinitions, standardActionDefinitions, } from \"@json-render/react-native/catalog\"; import { defineRegistry, Renderer } from \"@json-render/react-native\"; // 25+ standard components included const catalog = defineCatalog(schema, { components: { ...standardComponentDefinitions }, actions: standardActionDefinitions, }); const { registry } = defineRegistry(catalog, { components: {} }); <Renderer spec={spec} registry={registry} />"
+                    - button "Copy" [ref=e856] [cursor=pointer]:
+                      - img [ref=e857]
+                  - generic [ref=e860]:
+                    - heading "Remotion (Video)" [level=3] [ref=e861]
+                    - 'link "Permalink: Remotion (Video)" [ref=e862] [cursor=pointer]':
+                      - /url: "#remotion-video"
+                      - img [ref=e863]
+                  - generic [ref=e865]:
+                    - generic [ref=e866]: "import { Player } from \"@remotion/player\"; import { Renderer, schema, standardComponentDefinitions } from \"@json-render/remotion\"; // Timeline spec format const spec = { composition: { id: \"video\", fps: 30, width: 1920, height: 1080, durationInFrames: 300 }, tracks: [{ id: \"main\", name: \"Main\", type: \"video\", enabled: true }], clips: [ { id: \"clip-1\", trackId: \"main\", component: \"TitleCard\", props: { title: \"Hello\" }, from: 0, durationInFrames: 90 } ], audio: { tracks: [] } }; <Player component={Renderer} inputProps={{ spec }} durationInFrames={spec.composition.durationInFrames} fps={spec.composition.fps} compositionWidth={spec.composition.width} compositionHeight={spec.composition.height} />"
+                    - button "Copy" [ref=e868] [cursor=pointer]:
+                      - img [ref=e869]
+                  - generic [ref=e872]:
+                    - heading "React PDF (Documents)" [level=3] [ref=e873]
+                    - 'link "Permalink: React PDF (Documents)" [ref=e874] [cursor=pointer]':
+                      - /url: "#react-pdf-documents"
+                      - img [ref=e875]
+                  - generic [ref=e877]:
+                    - generic [ref=e878]: "import { renderToBuffer } from \"@json-render/react-pdf\"; const spec = { root: \"doc\", elements: { doc: { type: \"Document\", props: { title: \"Invoice\" }, children: [\"page-1\"] }, \"page-1\": { type: \"Page\", props: { size: \"A4\" }, children: [\"heading-1\", \"table-1\"], }, \"heading-1\": { type: \"Heading\", props: { text: \"Invoice #1234\", level: \"h1\" }, children: [], }, \"table-1\": { type: \"Table\", props: { columns: [{ header: \"Item\", width: \"60%\" }, { header: \"Price\", width: \"40%\", align: \"right\" }], rows: [[\"Widget A\", \"$10.00\"], [\"Widget B\", \"$25.00\"]], }, children: [], }, }, }; // Render to buffer, stream, or file const buffer = await renderToBuffer(spec);"
+                    - button "Copy" [ref=e880] [cursor=pointer]:
+                      - img [ref=e881]
+                  - generic [ref=e884]:
+                    - heading "React Email (Email)" [level=3] [ref=e885]
+                    - 'link "Permalink: React Email (Email)" [ref=e886] [cursor=pointer]':
+                      - /url: "#react-email-email"
+                      - img [ref=e887]
+                  - generic [ref=e889]:
+                    - generic [ref=e890]: "import { renderToHtml } from \"@json-render/react-email\"; import { schema, standardComponentDefinitions } from \"@json-render/react-email\"; import { defineCatalog } from \"@json-render/core\"; const catalog = defineCatalog(schema, { components: standardComponentDefinitions, }); const spec = { root: \"html-1\", elements: { \"html-1\": { type: \"Html\", props: { lang: \"en\", dir: \"ltr\" }, children: [\"head-1\", \"body-1\"] }, \"head-1\": { type: \"Head\", props: {}, children: [] }, \"body-1\": { type: \"Body\", props: { style: { backgroundColor: \"#f6f9fc\" } }, children: [\"container-1\"], }, \"container-1\": { type: \"Container\", props: { style: { maxWidth: \"600px\", margin: \"0 auto\", padding: \"20px\" } }, children: [\"heading-1\", \"text-1\"], }, \"heading-1\": { type: \"Heading\", props: { text: \"Welcome\" }, children: [] }, \"text-1\": { type: \"Text\", props: { text: \"Thanks for signing up.\" }, children: [] }, }, }; const html = await renderToHtml(spec);"
+                    - button "Copy" [ref=e892] [cursor=pointer]:
+                      - img [ref=e893]
+                  - generic [ref=e896]:
+                    - heading "Image (SVG/PNG)" [level=3] [ref=e897]
+                    - 'link "Permalink: Image (SVG/PNG)" [ref=e898] [cursor=pointer]':
+                      - /url: "#image-svgpng"
+                      - img [ref=e899]
+                  - generic [ref=e901]:
+                    - generic [ref=e902]: "import { renderToPng } from \"@json-render/image/render\"; const spec = { root: \"frame\", elements: { frame: { type: \"Frame\", props: { width: 1200, height: 630, backgroundColor: \"#1a1a2e\" }, children: [\"heading\"], }, heading: { type: \"Heading\", props: { text: \"Hello World\", level: \"h1\", color: \"#ffffff\" }, children: [], }, }, }; // Render to PNG (requires @resvg/resvg-js) const png = await renderToPng(spec, { fonts }); // Or render to SVG string import { renderToSvg } from \"@json-render/image/render\"; const svg = await renderToSvg(spec, { fonts });"
+                    - button "Copy" [ref=e904] [cursor=pointer]:
+                      - img [ref=e905]
+                  - generic [ref=e908]:
+                    - heading "Features" [level=2] [ref=e909]
+                    - 'link "Permalink: Features" [ref=e910] [cursor=pointer]':
+                      - /url: "#features"
+                      - img [ref=e911]
+                  - generic [ref=e913]:
+                    - heading "Streaming (SpecStream)" [level=3] [ref=e914]
+                    - 'link "Permalink: Streaming (SpecStream)" [ref=e915] [cursor=pointer]':
+                      - /url: "#streaming-specstream"
+                      - img [ref=e916]
+                  - paragraph [ref=e918]: "Stream AI responses progressively:"
+                  - generic [ref=e919]:
+                    - generic [ref=e920]: "import { createSpecStreamCompiler } from \"@json-render/core\"; const compiler = createSpecStreamCompiler<MySpec>(); // Process chunks as they arrive const { result, newPatches } = compiler.push(chunk); setSpec(result); // Update UI with partial result // Get final result const finalSpec = compiler.getResult();"
+                    - button "Copy" [ref=e922] [cursor=pointer]:
+                      - img [ref=e923]
+                  - generic [ref=e926]:
+                    - heading "AI Prompt Generation" [level=3] [ref=e927]
+                    - 'link "Permalink: AI Prompt Generation" [ref=e928] [cursor=pointer]':
+                      - /url: "#ai-prompt-generation"
+                      - img [ref=e929]
+                  - paragraph [ref=e931]: "Generate system prompts from your catalog:"
+                  - generic [ref=e932]:
+                    - generic [ref=e933]: const systemPrompt = catalog.prompt(); // Includes component descriptions, props schemas, available actions
+                    - button "Copy" [ref=e935] [cursor=pointer]:
+                      - img [ref=e936]
+                  - generic [ref=e939]:
+                    - heading "Conditional Visibility" [level=3] [ref=e940]
+                    - 'link "Permalink: Conditional Visibility" [ref=e941] [cursor=pointer]':
+                      - /url: "#conditional-visibility"
+                      - img [ref=e942]
+                  - generic [ref=e944]:
+                    - generic [ref=e945]:
+                      - text: "{ \"type\":"
+                      - generic [ref=e946]: "\"Alert\""
+                      - text: ", \"props\": { \"message\":"
+                      - generic [ref=e947]: "\"Error occurred\""
+                      - text: "}, \"visible\": [ { \"$state\":"
+                      - generic [ref=e948]: "\"/form/hasError\""
+                      - text: "}, { \"$state\":"
+                      - generic [ref=e949]: "\"/form/errorDismissed\""
+                      - text: ", \"not\": true } ] }"
+                    - button "Copy" [ref=e951] [cursor=pointer]:
+                      - img [ref=e952]
+                  - generic [ref=e955]:
+                    - heading "Dynamic Props" [level=3] [ref=e956]
+                    - 'link "Permalink: Dynamic Props" [ref=e957] [cursor=pointer]':
+                      - /url: "#dynamic-props"
+                      - img [ref=e958]
+                  - paragraph [ref=e960]: "Any prop value can be data-driven using expressions:"
+                  - generic [ref=e961]:
+                    - generic [ref=e962]:
+                      - text: "{ \"type\":"
+                      - generic [ref=e963]: "\"Icon\""
+                      - text: ", \"props\": { \"name\": { \"$cond\": { \"$state\":"
+                      - generic [ref=e964]: "\"/activeTab\""
+                      - text: ", \"eq\":"
+                      - generic [ref=e965]: "\"home\""
+                      - text: "}, \"$then\":"
+                      - generic [ref=e966]: "\"home\""
+                      - text: ", \"$else\":"
+                      - generic [ref=e967]: "\"home-outline\""
+                      - text: "}, \"color\": { \"$cond\": { \"$state\":"
+                      - generic [ref=e968]: "\"/activeTab\""
+                      - text: ", \"eq\":"
+                      - generic [ref=e969]: "\"home\""
+                      - text: "}, \"$then\":"
+                      - generic [ref=e970]: "\"#007AFF\""
+                      - text: ", \"$else\":"
+                      - generic [ref=e971]: "\"#8E8E93\""
+                      - text: "} } }"
+                    - button "Copy" [ref=e973] [cursor=pointer]:
+                      - img [ref=e974]
+                  - paragraph [ref=e977]: "Expression forms:"
+                  - list [ref=e978]:
+                    - listitem [ref=e979]:
+                      - strong [ref=e980]:
+                        - code [ref=e981]: "{ \"$state\": \"/state/key\" }"
+                      - text: "- reads a value from the state model"
+                    - listitem [ref=e982]:
+                      - strong [ref=e983]:
+                        - code [ref=e984]: "{ \"$cond\": <condition>, \"$then\": <value>, \"$else\": <value> }"
+                      - text: "- evaluates a condition and picks a branch"
+                    - listitem [ref=e985]:
+                      - strong [ref=e986]:
+                        - code [ref=e987]: "{ \"$template\": \"Hello, ${/user/name}!\" }"
+                      - text: "- interpolates state values into strings"
+                    - listitem [ref=e988]:
+                      - strong [ref=e989]:
+                        - code [ref=e990]: "{ \"$computed\": \"fn\", \"args\": { ... } }"
+                      - text: "- calls a registered function with resolved args"
+                  - generic [ref=e991]:
+                    - heading "Actions" [level=3] [ref=e992]
+                    - 'link "Permalink: Actions" [ref=e993] [cursor=pointer]':
+                      - /url: "#actions"
+                      - img [ref=e994]
+                  - paragraph [ref=e996]:
+                    - text: Components can trigger actions, including the built-in
+                    - code [ref=e997]: setState
+                    - text: "action:"
+                  - generic [ref=e998]:
+                    - generic [ref=e999]:
+                      - text: "{ \"type\":"
+                      - generic [ref=e1000]: "\"Pressable\""
+                      - text: ", \"props\": { \"action\":"
+                      - generic [ref=e1001]: "\"setState\""
+                      - text: ", \"actionParams\": { \"statePath\":"
+                      - generic [ref=e1002]: "\"/activeTab\""
+                      - text: ", \"value\":"
+                      - generic [ref=e1003]: "\"home\""
+                      - text: "} }, \"children\": ["
+                      - generic [ref=e1004]: "\"home-icon\""
+                      - text: "] }"
+                    - button "Copy" [ref=e1006] [cursor=pointer]:
+                      - img [ref=e1007]
+                  - paragraph [ref=e1010]:
+                    - text: The
+                    - code [ref=e1011]: setState
+                    - text: action updates the state model directly, which re-evaluates visibility conditions and dynamic prop expressions.
+                  - generic [ref=e1012]:
+                    - heading "State Watchers" [level=3] [ref=e1013]
+                    - 'link "Permalink: State Watchers" [ref=e1014] [cursor=pointer]':
+                      - /url: "#state-watchers"
+                      - img [ref=e1015]
+                  - paragraph [ref=e1017]: "React to state changes by triggering actions:"
+                  - generic [ref=e1018]:
+                    - generic [ref=e1019]:
+                      - text: "{ \"type\":"
+                      - generic [ref=e1020]: "\"Select\""
+                      - text: ", \"props\": { \"value\": { \"$bindState\":"
+                      - generic [ref=e1021]: "\"/form/country\""
+                      - text: "}, \"options\": ["
+                      - generic [ref=e1022]: "\"US\""
+                      - text: ","
+                      - generic [ref=e1023]: "\"Canada\""
+                      - text: ","
+                      - generic [ref=e1024]: "\"UK\""
+                      - text: "] }, \"watch\": { \"/form/country\": { \"action\":"
+                      - generic [ref=e1025]: "\"loadCities\""
+                      - text: ", \"params\": { \"country\": { \"$state\":"
+                      - generic [ref=e1026]: "\"/form/country\""
+                      - text: "} } } } }"
+                    - button "Copy" [ref=e1028] [cursor=pointer]:
+                      - img [ref=e1029]
+                  - paragraph [ref=e1032]:
+                    - code [ref=e1033]: watch
+                    - text: is a top-level field on elements (sibling of
+                    - code [ref=e1034]: type
+                    - text: /
+                    - code [ref=e1035]: props
+                    - text: /
+                    - code [ref=e1036]: children
+                    - text: ). Watchers fire when the watched value changes, not on initial render.
+                  - separator [ref=e1037]
+                  - generic [ref=e1038]:
+                    - heading "Demo" [level=2] [ref=e1039]
+                    - 'link "Permalink: Demo" [ref=e1040] [cursor=pointer]':
+                      - /url: "#demo"
+                      - img [ref=e1041]
+                  - generic [ref=e1043]:
+                    - generic [ref=e1044]: git clone https://github.com/vercel-labs/json-render cd json-render pnpm install pnpm dev
+                    - button "Copy" [ref=e1046] [cursor=pointer]:
+                      - img [ref=e1047]
+                  - list [ref=e1050]:
+                    - listitem [ref=e1051]:
+                      - link "http://json-render.localhost:1355" [ref=e1052] [cursor=pointer]:
+                        - /url: http://json-render.localhost:1355
+                      - text: "- Docs & Playground"
+                    - listitem [ref=e1053]:
+                      - link "http://dashboard-demo.json-render.localhost:1355" [ref=e1054] [cursor=pointer]:
+                        - /url: http://dashboard-demo.json-render.localhost:1355
+                      - text: "- Example Dashboard"
+                    - listitem [ref=e1055]:
+                      - link "http://react-email-demo.json-render.localhost:1355" [ref=e1056] [cursor=pointer]:
+                        - /url: http://react-email-demo.json-render.localhost:1355
+                      - text: "- React Email Example"
+                    - listitem [ref=e1057]:
+                      - link "http://remotion-demo.json-render.localhost:1355" [ref=e1058] [cursor=pointer]:
+                        - /url: http://remotion-demo.json-render.localhost:1355
+                      - text: "- Remotion Video Example"
+                    - listitem [ref=e1059]:
+                      - text: "Chat Example: run"
+                      - code [ref=e1060]: pnpm dev
+                      - text: in
+                      - code [ref=e1061]: examples/chat
+                    - listitem [ref=e1062]:
+                      - text: "Svelte Example: run"
+                      - code [ref=e1063]: pnpm dev
+                      - text: in
+                      - code [ref=e1064]: examples/svelte
+                      - text: or
+                      - code [ref=e1065]: examples/svelte-chat
+                    - listitem [ref=e1066]:
+                      - text: "Vue Example: run"
+                      - code [ref=e1067]: pnpm dev
+                      - text: in
+                      - code [ref=e1068]: examples/vue
+                    - listitem [ref=e1069]:
+                      - text: "Vite Renderers (React + Vue + Svelte): run"
+                      - code [ref=e1070]: pnpm dev
+                      - text: in
+                      - code [ref=e1071]: examples/vite-renderers
+                    - listitem [ref=e1072]:
+                      - text: "React Native example: run"
+                      - code [ref=e1073]: npx expo start
+                      - text: in
+                      - code [ref=e1074]: examples/react-native
+                  - generic [ref=e1075]:
+                    - heading "How It Works" [level=2] [ref=e1076]
+                    - 'link "Permalink: How It Works" [ref=e1077] [cursor=pointer]':
+                      - /url: "#how-it-works"
+                      - img [ref=e1078]
+                  - region "mermaid rendered output container" [ref=e1080]:
+                    - generic [ref=e1081]:
+                      - generic [ref=e1082]:
+                        - group [ref=e1083]:
+                          - button "Open dialog" [ref=e1084] [cursor=pointer]:
+                            - img [ref=e1085]
+                        - button "Copy mermaid code" [ref=e1087] [cursor=pointer]:
+                          - img [ref=e1088]
+                      - iframe [ref=e1092]:
+                        - generic [active]:
+                          - img [ref=f1e4]:
+                            - generic [ref=f1e13]:
+                              - paragraph [ref=f1e20]: User Prompt
+                              - paragraph [ref=f1e27]: AI + Catalog
+                              - paragraph [ref=f1e34]: JSON Spec
+                              - paragraph [ref=f1e41]: Renderer
+                              - paragraph [ref=f1e50]: guardrailed
+                              - paragraph [ref=f1e59]: predictable
+                              - paragraph [ref=f1e68]: streamed
+                          - generic [ref=f1e69]:
+                            - button "Zoom in" [ref=f1e70] [cursor=pointer]:
+                              - img [ref=f1e71]
+                            - button "Zoom out" [ref=f1e74] [cursor=pointer]:
+                              - img [ref=f1e75]
+                            - button "Reset view" [ref=f1e78] [cursor=pointer]:
+                              - img [ref=f1e79]
+                            - button "Pan up" [ref=f1e81] [cursor=pointer]:
+                              - img [ref=f1e82]
+                            - button "Pan down" [ref=f1e84] [cursor=pointer]:
+                              - img [ref=f1e85]
+                            - button "Pan left" [ref=f1e87] [cursor=pointer]:
+                              - img [ref=f1e88]
+                            - button "Pan right" [ref=f1e90] [cursor=pointer]:
+                              - img [ref=f1e91]
+                  - list [ref=e1093]:
+                    - listitem [ref=e1094]:
+                      - strong [ref=e1095]: Define the guardrails
+                      - text: "- what components, actions, and data bindings AI can use"
+                    - listitem [ref=e1096]:
+                      - strong [ref=e1097]: Prompt
+                      - text: "- describe what you want in natural language"
+                    - listitem [ref=e1098]:
+                      - strong [ref=e1099]: AI generates JSON
+                      - text: "- output is always predictable, constrained to your catalog"
+                    - listitem [ref=e1100]:
+                      - strong [ref=e1101]: Render fast
+                      - text: "- stream and render progressively as the model responds"
+                  - generic [ref=e1102]:
+                    - heading "License" [level=2] [ref=e1103]
+                    - 'link "Permalink: License" [ref=e1104] [cursor=pointer]':
+                      - /url: "#license"
+                      - img [ref=e1105]
+                  - paragraph [ref=e1107]: Apache-2.0
+          - generic [ref=e1111]:
+            - generic [ref=e1114]:
+              - heading "About" [level=2] [ref=e1115]
+              - paragraph [ref=e1116]: The Generative UI framework
+              - generic [ref=e1117]:
+                - img [ref=e1118]
+                - link "json-render.dev" [ref=e1121] [cursor=pointer]:
+                  - /url: https://json-render.dev
+              - heading "Resources" [level=3] [ref=e1122]
+              - link "Readme" [ref=e1124] [cursor=pointer]:
+                - /url: "#readme-ov-file"
+                - img [ref=e1125]
+                - text: Readme
+              - heading "License" [level=3] [ref=e1127]
+              - link "Apache-2.0 license" [ref=e1129] [cursor=pointer]:
+                - /url: "#Apache-2.0-1-ov-file"
+                - img [ref=e1130]
+                - text: Apache-2.0 license
+              - link "Activity" [ref=e1133] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/activity
+                - img [ref=e1134]
+                - text: Activity
+              - link "Custom properties" [ref=e1137] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/custom-properties
+                - img [ref=e1138]
+                - text: Custom properties
+              - heading "Stars" [level=3] [ref=e1140]
+              - link "12.1k stars" [ref=e1142] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/stargazers
+                - img [ref=e1143]
+                - strong [ref=e1145]: 12.1k
+                - text: stars
+              - heading "Watchers" [level=3] [ref=e1146]
+              - link "42 watching" [ref=e1148] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/watchers
+                - img [ref=e1149]
+                - strong [ref=e1151]: "42"
+                - text: watching
+              - heading "Forks" [level=3] [ref=e1152]
+              - link "642 forks" [ref=e1154] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/forks
+                - img [ref=e1155]
+                - strong [ref=e1157]: "642"
+                - text: forks
+              - link "Report repository" [ref=e1159] [cursor=pointer]:
+                - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fjson-render&report=vercel-labs+%28user%29
+            - generic [ref=e1161]:
+              - heading "Releases 113" [level=2] [ref=e1162]:
+                - link "Releases 113" [ref=e1163] [cursor=pointer]:
+                  - /url: /vercel-labs/json-render/releases
+                  - text: Releases
+                  - generic "113" [ref=e1164]
+              - link "@json-render/core@0.12.0 Latest Mar 7, 20264 days ago" [ref=e1165] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/releases/tag/%40json-render%2Fcore%400.12.0
+                - img [ref=e1166]
+                - generic [ref=e1168]:
+                  - generic [ref=e1169]:
+                    - generic [ref=e1170]: "@json-render/core@0.12.0"
+                    - 'generic "Label: Latest" [ref=e1171]': Latest
+                  - generic [ref=e1172]: Mar 7, 20264 days ago
+              - link "+ 112 releases" [ref=e1174] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/releases
+            - generic [ref=e1176]:
+              - heading "Deployments 500+" [level=2] [ref=e1177]:
+                - link "Deployments 500+" [ref=e1178] [cursor=pointer]:
+                  - /url: /vercel-labs/json-render/deployments
+                  - text: Deployments
+                  - generic "500+" [ref=e1179]
+              - list [ref=e1180]:
+                - listitem [ref=e1181]:
+                  - img [ref=e1182]
+                  - link "Preview – json-render March 9, 2026 09:072 days ago" [ref=e1184] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/deployments/Preview%20%E2%80%93%20json-render
+                - listitem [ref=e1185]:
+                  - img [ref=e1186]
+                  - link "Preview – json-render-dashboard-demo March 9, 2026 09:072 days ago" [ref=e1188] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/deployments/Preview%20%E2%80%93%20json-render-dashboard-demo
+                - listitem [ref=e1189]:
+                  - img [ref=e1190]
+                  - link "Preview – json-render-remotion-demo March 9, 2026 09:072 days ago" [ref=e1192] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/deployments/Preview%20%E2%80%93%20json-render-remotion-demo
+              - link "+ more deployments" [ref=e1194] [cursor=pointer]:
+                - /url: /vercel-labs/json-render/deployments
+            - generic [ref=e1196]:
+              - heading "Packages" [level=2] [ref=e1197]:
+                - link "Packages" [ref=e1198] [cursor=pointer]:
+                  - /url: /orgs/vercel-labs/packages?repo_name=json-render
+              - generic [ref=e1199]: No packages published
+            - generic [ref=e1201]:
+              - heading "Contributors 15" [level=2] [ref=e1202]:
+                - link "Contributors 15" [ref=e1203] [cursor=pointer]:
+                  - /url: /vercel-labs/json-render/graphs/contributors
+                  - text: Contributors
+                  - generic "15" [ref=e1204]
+              - list [ref=e1205]:
+                - listitem [ref=e1206]:
+                  - link "@ctate" [ref=e1207] [cursor=pointer]:
+                    - /url: https://github.com/ctate
+                    - img "@ctate" [ref=e1208]
+                - listitem [ref=e1209]:
+                  - link "@github-actions[bot]" [ref=e1210] [cursor=pointer]:
+                    - /url: https://github.com/apps/github-actions
+                    - img "@github-actions[bot]" [ref=e1211]
+                - listitem [ref=e1212]:
+                  - link "@vercel[bot]" [ref=e1213] [cursor=pointer]:
+                    - /url: https://github.com/apps/vercel
+                    - img "@vercel[bot]" [ref=e1214]
+                - listitem [ref=e1215]:
+                  - link "@claude" [ref=e1216] [cursor=pointer]:
+                    - /url: https://github.com/claude
+                    - img "@claude" [ref=e1217]
+                - listitem [ref=e1218]:
+                  - link "@bmuenzenmeyer" [ref=e1219] [cursor=pointer]:
+                    - /url: https://github.com/bmuenzenmeyer
+                    - img "@bmuenzenmeyer" [ref=e1220]
+                - listitem [ref=e1221]:
+                  - link "@davidkpiano" [ref=e1222] [cursor=pointer]:
+                    - /url: https://github.com/davidkpiano
+                    - img "@davidkpiano" [ref=e1223]
+                - listitem [ref=e1224]:
+                  - link "@lucianfialho" [ref=e1225] [cursor=pointer]:
+                    - /url: https://github.com/lucianfialho
+                    - img "@lucianfialho" [ref=e1226]
+                - listitem [ref=e1227]:
+                  - link "@michalczaplinski" [ref=e1228] [cursor=pointer]:
+                    - /url: https://github.com/michalczaplinski
+                    - img "@michalczaplinski" [ref=e1229]
+                - listitem [ref=e1230]:
+                  - link "@dummdidumm" [ref=e1231] [cursor=pointer]:
+                    - /url: https://github.com/dummdidumm
+                    - img "@dummdidumm" [ref=e1232]
+                - listitem [ref=e1233]:
+                  - link "@ubmit" [ref=e1234] [cursor=pointer]:
+                    - /url: https://github.com/ubmit
+                    - img "@ubmit" [ref=e1235]
+                - listitem [ref=e1236]:
+                  - link "@antfu" [ref=e1237] [cursor=pointer]:
+                    - /url: https://github.com/antfu
+                    - img "@antfu" [ref=e1238]
+                - listitem [ref=e1239]:
+                  - link "@Juzisuan965" [ref=e1240] [cursor=pointer]:
+                    - /url: https://github.com/Juzisuan965
+                    - img "@Juzisuan965" [ref=e1241]
+                - listitem [ref=e1242]:
+                  - link "@ManzoliW" [ref=e1243] [cursor=pointer]:
+                    - /url: https://github.com/ManzoliW
+                    - img "@ManzoliW" [ref=e1244]
+                - listitem [ref=e1245]:
+                  - link "@shivenaggarwal" [ref=e1246] [cursor=pointer]:
+                    - /url: https://github.com/shivenaggarwal
+                    - img "@shivenaggarwal" [ref=e1247]
+                - listitem [ref=e1248]:
+                  - link "@YogeshK34" [ref=e1249] [cursor=pointer]:
+                    - /url: https://github.com/YogeshK34
+                    - img "@YogeshK34" [ref=e1250]
+            - generic [ref=e1252]:
+              - heading "Languages" [level=2] [ref=e1253]
+              - list [ref=e1260]:
+                - listitem [ref=e1261]:
+                  - link "TypeScript 81.5%" [ref=e1262] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/search?l=typescript
+                    - img [ref=e1263]
+                    - generic [ref=e1265]: TypeScript
+                    - generic [ref=e1266]: 81.5%
+                - listitem [ref=e1267]:
+                  - link "MDX 15.1%" [ref=e1268] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/search?l=mdx
+                    - img [ref=e1269]
+                    - generic [ref=e1271]: MDX
+                    - generic [ref=e1272]: 15.1%
+                - listitem [ref=e1273]:
+                  - link "Svelte 2.1%" [ref=e1274] [cursor=pointer]:
+                    - /url: /vercel-labs/json-render/search?l=svelte
+                    - img [ref=e1275]
+                    - generic [ref=e1277]: Svelte
+                    - generic [ref=e1278]: 2.1%
+                - listitem [ref=e1279]:
+                  - generic [ref=e1280]:
+                    - img [ref=e1281]
+                    - generic [ref=e1283]: Other
+                    - generic [ref=e1284]: 1.3%
+    - contentinfo [ref=e1286]:
+      - heading "Footer" [level=2] [ref=e1287]
+      - generic [ref=e1288]:
+        - generic [ref=e1289]:
+          - link "GitHub Homepage" [ref=e1290] [cursor=pointer]:
+            - /url: https://github.com
+            - img [ref=e1291]
+          - generic [ref=e1293]: © 2026 GitHub, Inc.
+        - navigation "Footer" [ref=e1294]:
+          - heading "Footer navigation" [level=3] [ref=e1295]
+          - list "Footer navigation" [ref=e1296]:
+            - listitem [ref=e1297]:
+              - link "Terms" [ref=e1298] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+            - listitem [ref=e1299]:
+              - link "Privacy" [ref=e1300] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+            - listitem [ref=e1301]:
+              - link "Security" [ref=e1302] [cursor=pointer]:
+                - /url: https://github.com/security
+            - listitem [ref=e1303]:
+              - link "Status" [ref=e1304] [cursor=pointer]:
+                - /url: https://www.githubstatus.com/
+            - listitem [ref=e1305]:
+              - link "Community" [ref=e1306] [cursor=pointer]:
+                - /url: https://github.community/
+            - listitem [ref=e1307]:
+              - link "Docs" [ref=e1308] [cursor=pointer]:
+                - /url: https://docs.github.com/
+            - listitem [ref=e1309]:
+              - link "Contact" [ref=e1310] [cursor=pointer]:
+                - /url: https://support.github.com?tags=dotcom-footer
+            - listitem [ref=e1311]:
+              - button "Manage cookies" [ref=e1313] [cursor=pointer]
+            - listitem [ref=e1314]:
+              - button "Do not share my personal information" [ref=e1316] [cursor=pointer]
+  - generic:
+    - document
