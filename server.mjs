@@ -72,8 +72,8 @@ function sendToSocket(socketPath, message) {
 }
 
 console.log('Starting Playwright session via MCP Bridge extension...');
-console.log('Click the extension icon in your Chrome to connect, then press Enter.\n');
-execSync('playwright-cli open --extension', { stdio: 'inherit' });
+console.log('Click the Playwright MCP Bridge extension icon in Chrome to connect.\n');
+execSync('playwright-cli open --extension', { stdio: 'pipe' });
 
 const sessionConfig = findLatestSession();
 if (!sessionConfig) {
@@ -131,4 +131,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
   console.log(`Playwright Playground ready at http://localhost:${PORT}\n`);
+  const url = `http://localhost:${PORT}`;
+  const cmd = platform() === 'win32' ? `start ${url}` : platform() === 'darwin' ? `open ${url}` : `xdg-open ${url}`;
+  execSync(cmd);
 });
